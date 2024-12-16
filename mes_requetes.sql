@@ -1,3 +1,4 @@
+CREATE VIEW v_education_1 AS
 SELECT p.name, o.name, ed.begin_date, ed.end_date
 FROM education ed
 JOIN person p ON p.pk_person = ed.fk_person
